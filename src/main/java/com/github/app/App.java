@@ -2,6 +2,8 @@ package com.github.app;
 
 public class App {
 
+	public void addedMethod(){
+		System.out.println("Welcome to new method");
 	public static void add(String str) {
 
 		if (str.length() > 5) {
