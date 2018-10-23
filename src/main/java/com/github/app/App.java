@@ -1,3 +1,4 @@
+package com.github.app;
 
 public class App {
 
@@ -5,6 +6,11 @@ public class App {
 
 		if (str.length() > 5) {
 			System.out.println("Hello " + str);
+		} else {
+			System.out.println("Hi " + str);
+		}
+		if (str.equals(Constant.DATA_TYPE)) {
+			System.out.println("Exact Strings");
 		}
 	}
 
